@@ -1,1 +1,0 @@
-export default function sitemap(){const routes=['','/inspecao-nr13','/vasos-de-pressao','/caldeiras','/compressores','/calibracao','/prontuario-nr13','/livro-de-registro','/conhecimento','/contato'];return routes.map((route,i)=>({url:`https://brainspe.com.br${route}`,lastModified:new Date(),changeFrequency:i===0?'monthly':'yearly',priority:i===0?1:.8}))}
