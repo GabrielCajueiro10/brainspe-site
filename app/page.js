@@ -12,11 +12,11 @@ export const metadata = {
 };
 
 const field = [
-  ['/images/caldeira-inspecao-interna.jpeg', 'Inspeção interna de caldeira'],
-  ['/images/compressor-inspecao.jpeg', 'Inspeção em compressor'],
-  ['/images/calibracao-valvula-seguranca.jpeg', 'Calibração de válvula de segurança'],
-  ['/images/vaso-pressao-vertical.jpeg', 'Inspeção de vaso de pressão'],
-  ['/images/manometro-industrial.jpeg', 'Verificação de manômetro'],
+  ['/caldeira-inspecao-interna.jpeg', 'Inspeção interna de caldeira'],
+  ['/compressor-inspecao.jpeg', 'Inspeção em compressor'],
+  ['/calibracao-valvula-seguranca.jpeg', 'Calibração de válvula de segurança'],
+  ['/vaso-pressao-vertical.jpeg', 'Inspeção de vaso de pressão'],
+  ['/manometro-industrial.jpeg', 'Verificação de manômetro'],
 ];
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
     <Header />
     <main>
       <section className="hero">
-        <img src="/images/compressor-inspecao.jpeg" alt="Equipamento industrial inspecionado pela Brainspe" />
+        <img src="/compressor-inspecao.jpeg" alt="Equipamento industrial inspecionado pela Brainspe" />
         <div className="overlay" />
         <div className="container hero-content">
           <span className="eyebrow">Engenharia de inspeção</span>
@@ -39,7 +39,7 @@ export default function Home() {
       <section className="section">
         <div className="container section-heading"><div><span className="eyebrow">Como podemos ajudar</span><h2>Soluções diretas para manter sua operação em conformidade.</h2></div><p>Comece pela inspeção NR-13 ou selecione o equipamento e o serviço que sua empresa precisa regularizar.</p></div>
         <div className="container featured-nr13">
-          <img src="/images/caldeira-inspecao-interna.jpeg" alt="Inspeção NR-13 em equipamento industrial" />
+          <img src="/caldeira-inspecao-interna.jpeg" alt="Inspeção NR-13 em equipamento industrial" />
           <div><span className="eyebrow">Página principal</span><h3>Inspeção NR-13</h3><p>Entenda quais equipamentos são abrangidos, quando a inspeção deve ser realizada e quais documentos são entregues.</p><Link href="/inspecao-nr13">Acessar Inspeção NR-13 →</Link></div>
         </div>
         <div className="container service-grid">
