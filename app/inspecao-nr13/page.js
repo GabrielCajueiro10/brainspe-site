@@ -1,0 +1,7 @@
+import ServicePage from '../components/ServicePage';
+export const metadata={title:'Inspeção NR-13 | Brainspe',description:'Inspeção NR-13 em vasos de pressão, caldeiras e compressores, com calibrações e documentação técnica.',alternates:{canonical:'https://brainspe.com.br/inspecao-nr13'}};
+export default function Page(){return <ServicePage eyebrow="Serviço principal" title="Inspeção NR-13" intro="Avaliação técnica de equipamentos sob pressão para verificar suas condições de segurança, seus dispositivos de proteção e a documentação exigida." image="/images/caldeira-inspecao-interna.jpeg" sections={[
+{title:'O que é avaliado',text:'O escopo é definido conforme o tipo de equipamento, seu histórico e sua condição de instalação.',items:['Condições externas e internas, quando aplicável','Placa de identificação e dados técnicos','Dispositivos de segurança e instrumentos','Histórico de inspeções e documentação existente','Medições, ensaios e calibrações previstos no escopo']},
+{title:'Tipos de inspeção',text:'A NR-13 prevê inspeções iniciais, periódicas e extraordinárias. A periodicidade e o conteúdo da avaliação dependem do equipamento e de seu enquadramento.'},
+{title:'O que a empresa recebe',text:'Após a execução, a Brainspe entrega o relatório técnico da inspeção e os demais documentos previstos no escopo contratado. A ART é emitida como parte da inspeção NR-13.'}
+]} related={[{href:'/vasos-de-pressao',label:'Vasos de pressão'},{href:'/caldeiras',label:'Caldeiras'},{href:'/compressores',label:'Compressores'},{href:'/calibracao',label:'Calibração'}]}/>}

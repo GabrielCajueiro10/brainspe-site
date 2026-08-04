@@ -1,0 +1,3 @@
+import Header from '../components/Header';import Footer from '../components/Footer';import ContactBlock from '../components/ContactBlock';
+export const metadata={title:'Solicite um orçamento | Brainspe',description:'Envie as informações dos equipamentos para solicitar orçamento de inspeção NR-13.',alternates:{canonical:'https://brainspe.com.br/contato'}};
+export default function Page(){return <><Header/><main><section className="simple-hero"><div className="container"><span className="eyebrow">Contato</span><h1>Solicite um orçamento</h1><p>Para agilizar a análise, informe o tipo e a quantidade de equipamentos, a cidade, as fotos disponíveis e a documentação existente.</p></div></section><ContactBlock/></main><Footer/></>}
