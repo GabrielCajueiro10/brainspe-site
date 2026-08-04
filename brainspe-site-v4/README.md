@@ -1,18 +1,33 @@
-# Brainspe Site V4
+# Brainspe Site V5 — versão multipágina
 
-Versão refinada com:
-- Blog removido;
-- Logo recortado, ampliado e destacado no cabeçalho e rodapé;
-- E-mail comercial como principal canal de orçamento;
-- Botões de e-mail com assunto e mensagem previamente preenchidos;
-- WhatsApp mantido como alternativa rápida;
-- Seção de contato B2B com destaque para envio de documentos.
-
-## Executar
+## Executar localmente
 
 ```bash
 npm install
 npm run dev
 ```
 
-Abra o endereço exibido pelo terminal, normalmente `http://localhost:3000`.
+Abra `http://localhost:3000`.
+
+## Páginas incluídas
+
+- `/`
+- `/inspecao-nr13`
+- `/vasos-de-pressao`
+- `/caldeiras`
+- `/compressores`
+- `/calibracao`
+- `/prontuario-nr13`
+- `/livro-de-registro`
+- `/conhecimento`
+- `/contato`
+
+A Home permanece objetiva. O conteúdo detalhado está separado nas páginas próprias, acessíveis pelo menu.
+
+
+## Créditos das imagens temporárias
+
+- Prontuário NR-13: Kelly Sikkema / Unsplash (licença Unsplash).
+- Livro de Registro: Daniel Andraski / Pexels (licença Pexels).
+
+Essas imagens são temporárias e poderão ser substituídas por fotos autorais da Brainspe.
